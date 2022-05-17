@@ -24,10 +24,13 @@ module.exports = {
     'no-alert': 'off',
     'no-console': 'off',
 
+    'dot-notation': 'off',
+    'global-require': 'off',
     'no-case-declarations': 'off',
     'no-restricted-globals': 'off',
 
     'import/extensions': 'off',
+    'import/no-extraneous-dependencies': 'off',
     'import/no-unresolved': 'off',
 
     'jsx-a11y/click-events-have-key-events': 'off',

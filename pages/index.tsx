@@ -65,7 +65,7 @@ const IndexPage: NextPage = () => {
 
   return (
     <>
-      <h1 className="pt-8 text-5xl">O que você achou do atendimento?</h1>
+      <h1 className="pt-8 text-5xl text-white">O que você achou do atendimento?</h1>
 
       <div className="flex justify-around items-center w-full h-full">
         <NoteComponent value="ONE" onClick={onClick} imageUrl="/1.png" />
@@ -75,7 +75,7 @@ const IndexPage: NextPage = () => {
         <NoteComponent value="FIVE" onClick={onClick} imageUrl="/5.png" />
       </div>
 
-      <footer className="flex justify-center items-center w-full h-80">
+      <footer className="flex justify-center items-center w-full h-80 text-white">
         <span className={`h-40 w-40 p-3 flex justify-center items-center font-mono text-8xl rounded-full ${isCountdownRunning ? 'bg-red-500' : 'bg-green-500'}`}>
           {String(countdownSeconds).padStart(2, '0')}
         </span>
