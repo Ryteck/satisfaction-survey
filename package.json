@@ -1,0 +1,42 @@
+{
+  "name": "satisfaction-survey",
+  "version": "1.0.0",
+  "description": "Pesquisa de satisfação",
+  "repository": "https://github.com/Ryteck/satisfaction-survey.git",
+  "author": "Ryan Gomes Martins <ryteckgm@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@prisma/client": "^3.14.0",
+    "axios": "^0.27.2",
+    "next": "^12.1.6",
+    "react": "^18.1.0",
+    "react-confirm-alert": "^2.8.0",
+    "react-dom": "^18.1.0",
+    "react-hot-toast": "^2.2.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.33",
+    "@types/react": "^18.0.9",
+    "@types/uuid": "^8.3.4",
+    "@typescript-eslint/eslint-plugin": "^5.24.0",
+    "@typescript-eslint/parser": "^5.24.0",
+    "autoprefixer": "^10.4.7",
+    "eslint": "^8.15.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-react-hooks": "^4.5.0",
+    "postcss": "^8.4.13",
+    "prisma": "^3.14.0",
+    "tailwindcss": "^3.0.24",
+    "typescript": "^4.6.4"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  }
+}
