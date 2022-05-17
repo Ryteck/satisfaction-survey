@@ -4,10 +4,7 @@ import { NextPage } from 'next';
 import { useEffect, useState } from 'react';
 import DatePicker from 'react-datepicker';
 import toast from 'react-hot-toast';
-import {
-  VictoryAxis,
-  VictoryBar, VictoryChart, VictoryPie, VictoryTheme
-} from 'victory';
+import { VictoryAxis, VictoryBar, VictoryChart, VictoryPie, VictoryTheme } from 'victory';
 
 const AdminPage: NextPage = () => {
   const [controllerMode, setControllerMode] = useState<'ALL' | 'SPECIFIC' | 'BETWEEN'>('ALL');

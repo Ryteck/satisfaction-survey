@@ -28,6 +28,7 @@ module.exports = {
     'global-require': 'off',
     'no-case-declarations': 'off',
     'no-restricted-globals': 'off',
+    'object-curly-newline': 'off',
 
     'import/extensions': 'off',
     'import/no-extraneous-dependencies': 'off',
