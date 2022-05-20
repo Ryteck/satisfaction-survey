@@ -40,7 +40,8 @@
   },
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "sync-db": "prisma db push --skip-generate",
+    "build": "yarn sync-db && yarn next build",
     "start": "next start"
   }
 }
