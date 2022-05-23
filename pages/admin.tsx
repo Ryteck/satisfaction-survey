@@ -138,10 +138,6 @@ const AdminPage: NextPage = () => {
               <VictoryChart
                 theme={VictoryTheme.material}
                 domainPadding={10}
-                animate={{
-                  duration: 2000,
-                  onLoad: { duration: 1000 },
-                }}
               >
                 <VictoryBar
                   data={getCountShortAnswers()}
@@ -177,10 +173,6 @@ const AdminPage: NextPage = () => {
               <VictoryChart
                 theme={VictoryTheme.material}
                 domainPadding={10}
-                animate={{
-                  duration: 2000,
-                  onLoad: { duration: 1000 },
-                }}
               >
                 <VictoryPie
                   data={getCountShortAnswers()}
